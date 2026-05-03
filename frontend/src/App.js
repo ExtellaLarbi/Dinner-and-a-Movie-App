@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "./assets/logo.svg";
 import RestaurantCard from "./components/RestaurantCard";
 import MovieCard from "./components/MovieCard";
 import { fetchRandomRestaurant, fetchRandomMovie } from "./api";
@@ -29,7 +30,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Dinner and a Movie</h1>
+      <img src={logo} alt="Site logo" className="logo" />
+      <h1 className="title">Spark Meal</h1>
       <p>Can’t decide? Let randomness choose for you.</p>
       <button onClick={handleRandomize} disabled={loading}>
         {loading ? "Finding your match..." : "Randomize Match"}
