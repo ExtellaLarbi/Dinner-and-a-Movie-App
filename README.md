@@ -1,2 +1,16 @@
 # Dinner-and-a-Movie-App
 Sometimes you just can't decide what to have for dinner! Make a Dinner and a Movie matching website. Grab a random restaurant from Yelp and a random movie from The Movie Database using their public API endpoints and display the match up to the user. The user should be able to randomize the match up without refreshing the page.
+
+
+# Dinner and a Movie
+
+## How to Run the Project
+
+1. Install dependencies:
+npm install
+
+3. Start the development server:
+npm start
+
+3. Open the app in your browser:
+http://localhost:3000
